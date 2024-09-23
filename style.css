@@ -309,7 +309,7 @@ footer {
     margin: 40px auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 20px; /* Space between each assignment box */
 }
 
 .assignment-box {
@@ -320,10 +320,22 @@ footer {
     border-left: 5px solid #565356; /* Accent border matching the header/footer */
 }
 
+/* Specific styling for Assignment 0 */
+.assignment-box.assignment-0 {
+    /* If you want to add specific styles to Assignment 0, you can add them here */
+    border-left: 5px solid #565356; /* Same styling to ensure consistency */
+}
+
+/* Specific styling for Assignment 1 */
+.assignment-box.assignment-1 {
+    /* If you want to add specific styles to Assignment 1, you can add them here */
+    border-left: 5px solid #565356; /* Same styling to ensure consistency */
+}
+
 .assignment-box h2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    color: #000000; /* Gold color for assignment titles */
+    color: #000000; /* Black color for assignment titles */
     margin-bottom: 10px;
 }
 
@@ -356,4 +368,13 @@ footer {
     font-size: 1.2rem;
 }
 
-
+/* Responsive Design for Assignments Section */
+@media (max-width: 768px) {
+    .assignments-section {
+        width: 90%;
+    }
+    
+    .assignment-box h2 {
+        font-size: 1.3rem;
+    }
+}
