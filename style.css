@@ -203,6 +203,21 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
+/* Video Container for Assignment 2 */
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -332,6 +347,12 @@ footer {
     border-left: 5px solid #565356; /* Same styling to ensure consistency */
 }
 
+/* Specific styling for Assignment 2 */
+.assignment-box.assignment-2 {
+    /* Specific styles for Assignment 2 */
+    border-left: 5px solid #565356; /* Same styling to ensure consistency */
+}
+
 .assignment-box h2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -368,7 +389,7 @@ footer {
     font-size: 1.2rem;
 }
 
-/* Responsive Design for Assignments Section */
+/* Responsive Design */
 @media (max-width: 768px) {
     .assignments-section {
         width: 90%;
@@ -376,5 +397,10 @@ footer {
     
     .assignment-box h2 {
         font-size: 1.3rem;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
     }
 }
