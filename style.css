@@ -353,6 +353,12 @@ footer {
     border-left: 5px solid #565356; /* Same styling to ensure consistency */
 }
 
+/* Specific styling for Assignment 3 */
+.assignment-box.assignment-3 {
+    /* Specific styles for Assignment 3 */
+    border-left: 5px solid #565356; /* Same styling to ensure consistency */
+}
+
 .assignment-box h2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
