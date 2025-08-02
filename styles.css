@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.7;
-    color: #355736;
-    background: linear-gradient(135deg, #f9d9d9 0%, #f2c4c4 50%, #a8c39a 100%);
+    color: #000000;
+    background: #faf8f5;
     font-weight: 300;
     padding-top: 70px;
 }
@@ -52,7 +52,7 @@ body {
 .nav-logo {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    color: #355736;
+    color: #000000;
     text-decoration: none;
     font-weight: 500;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-links a {
-    color: #5a7c5c;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
     font-size: 0.95rem;
@@ -75,7 +75,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #355736;
+    color: #000000;
 }
 
 .nav-links a::after {
@@ -85,7 +85,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background: #355736;
+    background: #000000;
     transition: width 0.3s ease;
 }
 
@@ -106,7 +106,7 @@ body {
 .mobile-menu-btn span {
     width: 20px;
     height: 1px;
-    background: #355736;
+    background: #000000;
     transition: all 0.3s ease;
 }
 
@@ -121,14 +121,14 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     font-weight: 400;
-    color: #355736;
+    color: #000000;
     margin-bottom: 20px;
     letter-spacing: -0.5px;
 }
 
 .header .subtitle {
     font-size: 1.3rem;
-    color: #5a7c5c;
+    color: #000000;
     margin-bottom: 30px;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -150,7 +150,7 @@ body {
 }
 
 .contact-info a {
-    color: #5a7c5c;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
     font-size: 0.95rem;
@@ -159,7 +159,7 @@ body {
 }
 
 .contact-info a:hover {
-    color: #355736;
+    color: #000000;
 }
 
 /* Sections */
@@ -172,7 +172,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 400;
-    color: #355736;
+    color: #000000;
     margin-bottom: 50px;
     letter-spacing: -0.5px;
 }
@@ -181,7 +181,7 @@ body {
 .about-text {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #5a7c5c;
+    color: #000000;
     margin-bottom: 40px;
     text-align: left;
     max-width: 700px;
@@ -206,12 +206,12 @@ body {
 .education-card h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
-    color: #355736;
+    color: #000000;
     margin-bottom: 15px;
 }
 
 .education-card p {
-    color: #5a7c5c;
+    color: #000000;
     margin-bottom: 8px;
 }
 
@@ -232,7 +232,7 @@ body {
     padding: 15px 10px;
     border-radius: 10px;
     font-size: 0.9rem;
-    color: #355736;
+    color: #000000;
     font-weight: 400;
     transition: all 0.3s ease;
 }
@@ -257,12 +257,12 @@ body {
 .experience-title {
     font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
-    color: #355736;
+    color: #000000;
     margin-bottom: 8px;
 }
 
 .experience-company {
-    color: #5a7c5c;
+    color: #000000;
     font-size: 1rem;
     margin-bottom: 5px;
     font-weight: 400;
@@ -283,7 +283,7 @@ body {
     margin-bottom: 12px;
     padding-left: 20px;
     position: relative;
-    color: #5a7c5c;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -323,12 +323,12 @@ body {
 .project-title {
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
-    color: #355736;
+    color: #000000;
     margin-bottom: 15px;
 }
 
 .project-description {
-    color: #5a7c5c;
+    color: #000000;
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -342,7 +342,7 @@ body {
 
 .project-tag {
     background: rgba(168, 195, 154, 0.3);
-    color: #355736;
+    color: #000000;
     padding: 5px 12px;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -350,7 +350,7 @@ body {
 }
 
 .project-links a {
-    color: #5a7c5c;
+    color: #000000;
     text-decoration: none;
     margin-right: 20px;
     font-weight: 400;
@@ -359,8 +359,8 @@ body {
 }
 
 .project-links a:hover {
-    border-bottom: 1px solid #355736;
-    color: #355736;
+    border-bottom: 1px solid #000000;
+    color: #000000;
 }
 
 /* Certifications */
@@ -377,12 +377,12 @@ body {
 .cert-title {
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
-    color: #355736;
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .cert-issuer {
-    color: #5a7c5c;
+    color: #000000;
     margin-bottom: 8px;
     font-weight: 400;
 }
@@ -395,13 +395,13 @@ body {
 }
 
 .cert-description {
-    color: #5a7c5c;
+    color: #000000;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
 .cert-link a {
-    color: #5a7c5c;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
     border-bottom: 1px solid transparent;
@@ -409,8 +409,8 @@ body {
 }
 
 .cert-link a:hover {
-    border-bottom: 1px solid #355736;
-    color: #355736;
+    border-bottom: 1px solid #000000;
+    color: #000000;
 }
 
 /* Footer */
@@ -421,7 +421,7 @@ body {
 }
 
 .footer-text {
-    color: #5a7c5c;
+    color: #000000;
     font-size: 0.95rem;
     line-height: 1.6;
 }
